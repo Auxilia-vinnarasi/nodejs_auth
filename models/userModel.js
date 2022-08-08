@@ -24,7 +24,12 @@ const userSchema=Schema({
         type:String,
         required:true,
     },
-},{timestamps:true})
+    //avatar:{
+      // type:String,
+       // required:true,
+  // },
+},
+    {timestamps:true})
 
 //create a token to give it to user
 /*userSchema.methods.generateJWT=function(){
